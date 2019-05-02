@@ -11,7 +11,8 @@ class Dog
   end
 
   def self.all
-    @@dogs
+    @@dogs.join(" ")
   end
 
 end
+
